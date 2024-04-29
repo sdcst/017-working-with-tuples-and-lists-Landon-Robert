@@ -19,3 +19,13 @@ Enter the replacement:Dan
 ['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Dan']
 
 """
+
+people = ["Mao", "Josef", "Xi", "Kim", "Vladimir", "Benito"]
+print(people)
+remove = input("Choose one to remove: ")
+if remove in people:
+    remNum = people.index(remove)
+    people.remove(remove)
+    add = input("Add a name: ")
+    people.insert(remNum, add)
+    print(people)

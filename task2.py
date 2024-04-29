@@ -23,3 +23,10 @@ Enter a word: virus
 
 ['apple', 'worm', 'dollar', 'shingle', 'virus']
 """
+
+thelist = []
+for i in range(5):
+    x = int(input("Enter a number: "))
+    thelist.append(x)
+thelist.sort()
+print(thelist)
